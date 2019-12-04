@@ -1,0 +1,33 @@
+// order types
+export const FETCHING_MY_ORDER = 'FETCHING_MY_ORDER';
+export const FETCHING_MY_ORDER_SUCCESS = 'FETCHING_MY_ORDER_SUCCESS';
+export const FETCHING_MY_ORDER_ERROR = 'FETCHING_MY_ORDER_ERROR';
+export const CREATE_ORDER = 'CREATE_ORDER';
+export const CREATE_ORDER_SUCCESS = 'CREATE_ORDER_SUCCESS';
+export const CREATE_ORDER_ERROR = 'CREATE_ORDER_ERROR';
+
+// auth types
+export const LOGIN = 'LOGIN';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_ERROR = 'LOGIN_ERROR';
+export const SIGN_UP = 'SIGN_UP';
+
+// cart types
+export const SAVE_NEW_CART = 'SAVE_NEW_CART';
+export const MODIFY_CART = 'MODIFY_CART';
+
+// loading types
+export const SHOW_LOADING = 'SHOW_LOADING';
+export const HIDE_LOADING = 'HIDE_LOADING';
+
+// restaurant types
+/* eslint-disable import/prefer-default-export */
+export const FETCHING_RESTAURANT = 'FETCHING_RESTAURANT';
+export const FETCHING_RESTAURANT_SUCCESS = 'FETCHING_RESTAURANT_SUCCESS';
+export const FETCHING_RESTAURANT_ERROR = 'FETCHING_RESTAURANT_ERROR';
+
+export const FETCHING_RESTAURANT_BY_ID = 'FETCHING_RESTAURANT_BY_ID';
+export const FETCHING_RESTAURANT_BY_ID_SUCCESS =
+  'FETCHING_RESTAURANT_BY_ID_SUCCESS';
+export const FETCHING_RESTAURANT_BY_ID_ERROR =
+  'FETCHING_RESTAURANT_BY_ID_ERROR';
